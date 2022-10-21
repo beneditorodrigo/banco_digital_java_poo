@@ -2,7 +2,19 @@ package src.BancoDigital;
 
 public class ContaCorrente {
 
-    public String agencia;
-    public String conta;
-    public double saldo;
+    private String agencia;
+    private String conta;
+    private double saldo;
+
+    public String getAgencia() {
+        return agencia;
+    }
+
+    public String getConta() {
+        return conta;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
 }
