@@ -1,20 +1,5 @@
 package src.BancoDigital;
 
-public class ContaPoupanca {
+public class ContaPoupanca extends Conta{
 
-    private String agencia;
-    private String conta;
-    private double saldo;
-
-    public String getAgencia() {
-        return agencia;
-    }
-
-    public String getConta() {
-        return conta;
-    }
-
-    public double getSaldo() {
-        return saldo;
-    }
 }
