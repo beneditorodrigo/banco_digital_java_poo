@@ -2,9 +2,17 @@ package src.BancoDigital;
 
 public abstract class  Conta implements IConta{
 
-    private String agencia;
-    private String conta;
-    private double saldo;
+    private static final int AGENCIA_PADRAO = 00013;
+    private static int SEQUENCIAL_CONTA = 1300;
+
+    public Conta() {
+        this.agencia = String.valueOf(Conta.AGENCIA_PADRAO);
+        this.conta = String.valueOf(SEQUENCIAL_CONTA++);
+    }
+
+    protected String agencia;
+    protected String conta;
+    protected double saldo;
 
     @Override
     public void sacar(double valor) {
