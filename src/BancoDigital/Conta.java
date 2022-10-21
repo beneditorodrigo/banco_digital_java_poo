@@ -2,11 +2,14 @@ package src.BancoDigital;
 
 public abstract class  Conta implements IConta{
 
-    private static final int AGENCIA_PADRAO = 00013;
+    private static final String AGENCIA_PADRAO = "00013";
     private static int SEQUENCIAL_CONTA = 1300;
 
-    public Conta() {
-        this.agencia = String.valueOf(Conta.AGENCIA_PADRAO);
+    protected TitularDaConta titularDaConta;
+
+    public Conta(TitularDaConta titularDaConta) {
+        this.titularDaConta = titularDaConta;
+        this.agencia = Conta.AGENCIA_PADRAO;
         this.conta = String.valueOf(SEQUENCIAL_CONTA++);
     }
 
