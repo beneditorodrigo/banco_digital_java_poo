@@ -10,6 +10,8 @@ public class Main {
         Conta cc = new ContaCorrente(titularDaConta01);
         Conta poupanca = new ContaPoupanca(titularDaConta02);
 
+        Conta poupanca02 = new ContaPoupanca(titularDaConta01);
+
         cc.depositar(100);
         cc.transferir(30, poupanca);
 

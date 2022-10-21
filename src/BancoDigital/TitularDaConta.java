@@ -1,5 +1,7 @@
 package src.BancoDigital;
 
+import java.util.List;
+
 public class TitularDaConta {
 
     private String nome;

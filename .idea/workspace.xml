@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c89c5391-f5bd-4303-92ef-1012082d6c5d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BancoDigital/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BancoDigital/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BancoDigital/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BancoDigital/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BancoDigital/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BancoDigital/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BancoDigital/IConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BancoDigital/IConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco_digital_java_poo/src/BancoDigital/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco_digital_java_poo/src/BancoDigital/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco_digital_java_poo/src/BancoDigital/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco_digital_java_poo/src/BancoDigital/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco_digital_java_poo/src/BancoDigital/TitularDaConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco_digital_java_poo/src/BancoDigital/TitularDaConta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BancoDigital/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BancoDigital/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BancoDigital/TitularDaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BancoDigital/TitularDaConta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,26 @@
     &quot;last_opened_file_path&quot;: &quot;/home/benedito/Documentos/projetos_praticos/banco_digital_java_poo&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.BancoDigital.Main" />
+      <module name="banco_digital_java_poo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.BancoDigital.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
